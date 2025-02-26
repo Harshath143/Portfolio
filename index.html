@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Mohammed Harshath</span></a>
+
+        <u1 class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact"> Contact</a>
+            </li>
+
+        </u1>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn">Visit Github</button>
+
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="Harshath_pp.jpg" alt="">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Mohammed Harshath</h1>
+                    <span>Data Scientist</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="Harshath_DataScientist.pdf" download class="btn">Download CV</a>
+                    <a href="mailto:harshath142@gmail.com" class="btn">Contact</a>
+                </div>
+
+
+                <div class="socials">
+                    <a href="https://github.com/Harshath143" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohammed-harshath-ss-a68435208/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Jr Data Analyst</span>
+                    <h3>3 Months</h3>
+                    <p>During my Junior Data Analyst Internship at WeInvest, I processed and analyzed investment data, leveraging PCA for dimensionality reduction and K-Means Clustering for customer segmentation. I also developed data-driven investment strategies to optimize portfolio performance</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>Machine learning Intern</span>
+                    <h3>2 Months</h3>
+                    <p>During my Machine Learning Internship at Thirmoolar Solutions, I developed and optimized ML models, leveraging feature engineering and hyperparameter tuning to enhance performance. I also worked on model deployment and automation, ensuring scalable and efficient AI solutions.</p>
+                </div>
+            </div>
+            
+            <img src="" alt="">
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="FRCTM.webp" alt="">
+                <h3>Fake Review Classification and Topic Modelling</h3>
+                <p>This AI-powered project detects fake reviews and extracts key topics using BERT for classification and LDA for topic modeling, deployed with FastAPI and Docker for scalability.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="DeepDiveAI.webp" alt="">
+                <h3>DeepDive AI</h3>
+                <p></p>DeepDive AI - PaperInsight is a Streamlit-based chatbot that enables researchers to explore AI research papers using advanced semantic search and text extraction.
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="VAI.webp" alt="">
+                <h3>VoiceGPT - AI Voice Assistant</h3>
+                <p>VoiceGPT is a voice-activated AI chatbot that uses speech recognition, NLP, and TTS for seamless conversations. It also integrates with 3D game characters, bringing NPCs to life as virtual assistants.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class ="section-title">Contact me</h2>
+            <div class="input">
+                <input type="text" placeholder="example@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyrigth">© All Rights Reserved | Mohammed Harshath </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
